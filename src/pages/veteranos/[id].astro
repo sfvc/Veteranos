@@ -1,0 +1,77 @@
+---
+// Importar el archivo JSON y los componentes necesarios
+import { veteranos } from '../../assets/veteranos.json';
+import Layout from '../../components/Layout.astro';
+
+const { id } = Astro.params; // Obtener el ID de los parámetros de la URL
+
+// Buscar el veterano por ID
+const veterano = veteranos.find((v) => v.id === parseInt(id, 10));
+
+// Si no se encuentra el veterano, puedes manejarlo como quieras
+if (!veterano) {
+    // Podrías lanzar un error o redirigir a otra página
+    throw new Error('Veterano no encontrado');
+}
+
+export function getStaticPaths() {
+    return veteranos.map((veterano) => ({
+        params: { id: veterano.id.toString() }, // Convertir ID a cadena
+    }));
+}
+
+const rangoImage = '/src/assets/rango.svg'; // Define el camino correcto
+const medallaImage = '/src/assets/medalla.svg'; // Define el camino correcto
+const arrowbackImage = '/src/assets/arrowback.svg'; // Define el camino correcto
+const argImage = '/src/assets/arg.svg'; // Define el camino correcto
+
+---
+
+<Layout title={veterano.nombre}>
+    <div class='veterano_grid'>
+        <header class="veterano_header">
+            <img class="veterano_headerimg" src={veterano.img.startsWith('assets/img/') ? `/${veterano.img}` : veterano.img} alt={`${veterano.nombre} Header`} />
+        </header>
+        <main class="veterano_main">
+            <h1 class="veterano_mainh1">{veterano.nombre}</h1>
+            <div class="veterano_maindiv">
+                <img src={rangoImage} alt="Rango" />
+                <h2 class="veterano_mainh2">{veterano.grado}</h2>
+            </div>
+            <p style={{ color: 'gray' }}>{veterano.nacimiento}</p>
+            <section class="veterano_mainseccion">
+                <h2 style={{ textAlign: 'start' }}>Misiones:</h2>
+                <table class="veterano_main_table">
+                    <thead>
+                        <tr>
+                            <th>Pais</th>
+                            <th>Año</th>
+                            <th>Misión</th>
+                            <th>Unidad</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {veterano.misiones.map(mision => (
+                            <tr class="veterano_main_tr">
+                                <td>{mision.pais}</td>
+                                <td>{mision.año}</td>
+                                <td class="veterano_mainlip">{mision.mision}</td>
+                                <td>{mision.unidad}</td>
+                                <td>
+                                    <img class="veterano_mainliimg" src={medallaImage} alt="Medalla" />
+                                </td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <footer class="veterano_footer">
+            <a href="/"><img src={arrowbackImage} alt="Back" /></a>
+            <a href="https://www.argentina.gob.ar/coordinacion-de-veteranos-y-veteranas-de-la-guerra-de-malvinas" target='_blank' rel="noopener noreferrer">
+                <img src={argImage} alt="Ir a pagina de veteranos" />
+            </a>
+        </footer>
+    </div>
+</Layout>

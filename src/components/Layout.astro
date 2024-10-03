@@ -1,0 +1,43 @@
+---
+interface Props {
+	title: string;
+}
+
+import '../pages/index.css'
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../assets/files/giro.png">
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="/src/assets/files/giro.png" />
+		<!-- Open Graph Meta Tags for Facebook and LinkedIn -->
+		<meta property="og:title" content="Veteranos" />
+		<meta property="og:description" content="Descubri las misiones de nuestros heroes de Catamarca" />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="Veteranos" />
+		<!-- Twitter Card Meta Tags -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Veteranos" />
+		<meta name="twitter:description" content="Descubri las misiones de nuestros heroes de Catamarca" />
+		<meta name="twitter:site" content="" />
+		<!-- WhatsApp Meta Tags -->
+		<meta property="og:site_name" content="Veteranos" />
+		<!-- Instagram Meta Tags -->
+		<meta property="og:type" content="website" />
+		<!-- TikTok Meta Tags -->
+		<meta property="tiktok:site" content="" />
+		<meta property="tiktok:title" content="Veteranos" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="icon" type="image/svg+xml" href="/src/assets/arg.svg" />
+
+		<title>{title}</title>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>

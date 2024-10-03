@@ -1,0 +1,856 @@
+{
+    "veteranos":[
+     {
+      "id": 1,
+      "grado": "Tcnl",
+      "nombre": "Leiva Daza Ramón Luis",
+      "nacimiento": "18\/8\/1961",
+      "img":"../src/assets/img/LeivaDazaRamónLuis.jpeg",
+      "link":"/veteranos/1",
+      "misiones": [
+            {
+                "id":1,
+                "mision": "BEA VII - UNPROFOR",
+                "pais": "CROACIA",
+                "año": 1995,
+                "unidad": "GA Parac 4"
+            },
+            {
+                "id":2,        
+                "mision": "KUWAIT",
+                "pais": "KUWAIT",
+                "año": 2001,
+                "unidad": "RIM 15"
+            },
+            {
+                "id":3,
+                "mision": "MINUSTAH",
+                "pais": "HAITI",
+                "año": 2007,
+                "unidad": "RIM 15"
+            }
+        ]
+     },
+     {
+      "id": 2,
+      "grado": "Tcnl",
+      "nombre": "Robledo Sanchez Alba Elizabet",
+      "nacimiento": "18\/8\/1978",
+      "img":"../src/assets/img/default.svg",
+      "misiones": [
+       {
+            "id":1,
+           "mision": "MINUSTAH",
+           "pais": "HAITI",
+           "año": 2008,
+           "unidad": "RIM 16"
+       }
+
+      ]
+     },
+     {
+      "id": 3,
+      "grado": "M VGM",
+      "nombre": "Mosquera Gutierrez  Miguel",
+      "nacimiento": "30\/9\/1962",
+      "img":"../src/assets/img/default.svg",
+      "misiones": [
+       {
+            "id":1,
+           "mision": "BEA V - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1994,
+           "unidad": "RIM 15"
+       }
+
+      ]
+     },
+     {
+      "id": 4,
+      "grado": "My",
+      "nombre": "Silva Ricardo Ariel",
+      "nacimiento": "23\/6\/1973",
+      "img":"../src/assets/img/default.svg",
+      "misiones": [
+       {
+            "id":1,
+           "mision": "MINUSTAH 1",
+           "pais": "HAITI",
+           "año": 2004,
+           "unidad": "RI Parac 2"
+       }
+
+      ]
+     },
+     {
+      "id": 5,
+      "grado": "Tte ro",
+      "nombre": "Zapata Amadeo Raul",
+      "nacimiento": "1\/8\/1966",
+      "img":"../src/assets/img/ZapataAmadeoRaul.jpeg",
+      "misiones": [
+       {
+            "id":1,
+           "mision": "MINUSTAH",
+           "pais": "HAITI",
+           "año": 2006,
+           "unidad": "Esc C Parac 4"
+       }
+
+      ]
+     },
+     {
+      "id": 6,
+      "grado": "Subof My",
+      "nombre": "Aguilera Carlos Alberto",
+      "nacimiento": "1\/12\/1951",
+      "img":"../src/assets/img/AguileraCarlosAlberto.jpeg",
+      "misiones": [
+        {
+              "id":1,
+              "mision": "BEA I - UNPROFOR",
+              "pais": "CROACIA",
+              "año": 1992,
+              "unidad": "RI Mot 17"
+        },
+        {
+            "id":2,        
+            "mision": "Fuerza Tarea 13  - UNFICYP",
+            "pais": "CHIPRE",
+            "año": 1999,
+            "unidad": "RI Mot 17"
+        }
+      ]
+     },
+     {
+      "id": 7,
+      "grado": "Subof My",
+      "nombre": "Sanchez Juan León",
+      "nacimiento": "21\/12\/1951",
+      "img":"../src/assets/img/SanchezJuanLeón.jpeg",
+      "misiones": [
+       {    
+            "id":1,
+           "mision": "BEA VI - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1994,
+           "unidad": "RI Mot 17"
+       },
+       {    
+        "id":2,
+        "mision": "BEA VII - UNPROFOR",
+        "pais": "CROACIA",
+        "año": 1995,
+        "unidad": "RI Mot 17"
+        }
+
+      ]
+     },
+     {
+      "id": 8,
+      "grado": "Subof My",
+      "nombre": "Bornices Orlando Omar",
+      "nacimiento": "30\/10\/1950",
+      "img":"../src/assets/img/default.svg",
+      "misiones": [
+       {
+           "mision": "BEA V - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1993,
+           "unidad": "Hosp Mil 141 Cba"
+       }
+
+      ]
+     },
+     {
+      "id": 9,
+      "grado": "Subof My",
+      "nombre": "Ruarte Coronel Hugo Eloy",
+      "nacimiento": "1\/12\/1952",
+      "img":"../src/assets/img/RuarteCoronelHugoEloy.jpeg",
+      "misiones": [
+       {
+           "mision": "BEA III - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1993,
+           "unidad": "RI Mot 17"
+       }
+
+      ]
+     },
+     {
+      "id": 10,
+      "grado": "Subof My",
+      "nombre": "Villegas Carlos Eusebio",
+      "nacimiento": "17\/12\/1953",
+      "img":"../src/assets/img/default.svg",
+      "misiones": [
+       {
+           "mision": "BEA IV - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1994,
+           "unidad": "RI Mot 17"
+       }
+
+      ]
+     },
+     {
+      "id": 11,
+      "grado": "Subof My",
+      "nombre": "Silva Nestor Osvaldo",
+      "nacimiento": "7\/10\/1955",
+      "img":"../src/assets/img/SilvaNestorOsvaldo.jpeg",
+      "misiones": [
+       {
+           "mision": "Fuerza Tarea 7 - UNFICYP",
+           "pais": "CRHIPRE",
+           "año": 1996,
+           "unidad": "RI Mot 17"
+       }
+
+      ]
+     },
+     {
+      "id": 12,
+      "grado": "Subof My",
+      "nombre": "Sosa Orlando Isidro",
+      "nacimiento": "6\/10\/1952",
+      "img":"../src/assets/img/SosaOrlandoIsidro.jpeg",
+      "misiones": [
+       {
+           "mision": "BEA VIII - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1995,
+           "unidad": "RI Mot 17"
+       }
+
+      ]
+     },
+     {
+      "id": 13,
+      "grado": "Subof My",
+      "nombre": "Tejeda Nicolas del Valle",
+      "nacimiento": "28\/10\/1958",
+      "img":"../src/assets/img/TejedaNicolasdelValle.jpeg",
+      "misiones": [
+       {
+           "mision": "BEA I - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1992,
+           "unidad": "RI Mot 17"
+       }
+
+      ]
+     },
+     {
+      "id": 14,
+      "grado": "Subof My",
+      "nombre": "Pintos Miguel Jorge",
+      "nacimiento": "3\/8\/1963",
+      "img":"../src/assets/img/PintosMiguelJorge.jpeg",
+      "misiones": [
+       {    
+            "id":1,
+           "mision": "BEA VII - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1995,
+           "unidad": "EMGE"
+       },
+       {    
+        "id":2,
+        "mision": "Fuerza Tarea 7 - UNFICYP",
+        "pais": "CHIPRE",
+        "año": 1996,
+        "unidad": "EMGE"
+        }
+      ]
+     },
+     {
+      "id": 15,
+      "grado": "Subof My",
+      "nombre": "Gomez Ramon Antonio",
+      "nacimiento": "12\/2\/1967",
+      "img":"../src/assets/img/GomezRamonAntonio.jpeg",
+      "misiones": [
+       {
+            "id":1,
+           "mision": "UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1992,
+           "unidad": "RI Mot 17"
+       },
+
+       {
+        "id":2,
+        "mision": "OTAN",
+        "pais": "KOSOVO",
+        "año": 2003,
+        "unidad": "Ca Ing 5"
+        }
+
+      ]
+     },
+     {
+      "id": 16,
+      "grado": "Subof My",
+      "nombre": "Condori José Esteban",
+      "nacimiento": "25\/12\/1959",
+      "img":"../src/assets/img/CondoriJoséEsteban.jpeg",
+      "misiones": [
+       {
+            "id":1,
+           "mision": "MINUSTAH 1",
+           "pais": "HAITI",
+           "año": 2004,
+           "unidad": "RI Parac 14"
+       },
+       {
+            "id":2,
+            "mision": "MINUSTAH",
+            "pais": "HAITI",
+            "año": 2012,
+            "unidad": "RI Parac 14"
+        }
+      ]
+     },
+     {
+      "id": 17,
+      "grado": "Subof My",
+      "nombre": "Reartes Anibal Leoncio",
+      "nacimiento": "30\/7\/1963",
+      "img":"../src/assets/img/default.svg",
+      "misiones": [
+       {
+           "mision": "BEA II - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1993,
+           "unidad": "RI Mot 17"
+       }
+
+      ]
+     },
+     {
+      "id": 18,
+      "grado": "Subof My",
+      "nombre": "Iriarte Hugo",
+      "nacimiento": "18\/9\/1961",
+      "img":"../src/assets/img/default.svg",
+      "misiones": [
+            {
+                "id":1,
+                "mision": "BEA II - UNPROFOR",
+                "pais": "CROACIA",
+                "año": 1992,
+                "unidad": "RI Mot 17"
+            },
+            {
+                "id":2,        
+                "mision": "Fuerza Tarea 35 - UNFICYP",
+                "pais": "CHIPRE",
+                "año": 2010,
+                "unidad": "RIM 10"
+            },
+            {
+                "id":3,
+                "mision": "MINUSTAH",
+                "pais": "HAITI",
+                "año": 2015,
+                "unidad": "RIM 10"
+            }
+        ]
+     },
+     {
+      "id": 19,
+      "grado": "Subof My",
+      "nombre": "Barrionuevo Sergio José",
+      "nacimiento": "19\/3\/1969",
+      "img":"../src/assets/img/BarrionuevoSergioJosé.jpeg",
+      "misiones": [
+            {
+                "id":1,
+                "mision": "BEA VII - UNPROFOR",
+                "pais": "CROACIA",
+                "año": 2007,
+                "unidad": "RIM 15"
+            },
+            {
+                "id":2,        
+                "mision": "MINUSTAH",
+                "pais": "HAITI",
+                "año": 2009,
+                "unidad": "RIM 15"
+            },
+            {
+                "id":3,
+                "mision": "Fuerza Tarea 34 UNFICYP",
+                "pais": "CHIPRE",
+                "año": 2012,
+                "unidad": "RIM 15"
+            }
+        ]
+     },
+     {
+      "id": 20,
+      "grado": "Subof My",
+      "nombre": "Barrionuevo Arturo Ariel",
+      "nacimiento": "21\/12\/1973",
+      "img":"../src/assets/img/BarrionuevoArturoAriel.jpeg",
+      "misiones": [
+            {
+                "id":1,
+                "mision": "Fuerza Tarea - UNFICYP",
+                "pais": "CHIPRE",
+                "año": 2007,
+                "unidad": "EMGE"
+            },
+            {
+                "id":2,        
+                "mision": "MINUSTAH",
+                "pais": "HAITI",
+                "año": 2013,
+                "unidad": "RIM 15"
+            }
+        ]
+     },
+     {
+      "id": 21,
+      "grado": "Subof My",
+      "nombre": "Leiva José Francisco",
+      "nacimiento": "9\/7\/1961",
+      "img":"../src/assets/img/LeivaJoséFrancisco.jpeg",
+      "misiones": [
+       {
+           "mision": "BEA VII - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1995,
+           "unidad": "Dist Mil Cat"
+       }
+
+      ]
+     },
+     {
+      "id": 22,
+      "grado": "Subof My",
+      "nombre": "Cabrera Luis Alberto",
+      "nacimiento": "10\/1\/1959",
+      "img":"../src/assets/img/CabreraLuisAlberto.jpeg",
+      "misiones": [
+       {
+           "mision": "BEA VII - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1995,
+           "unidad": "RI Mot 17"
+       }
+
+      ]
+     },
+     {
+      "id": 23,
+      "grado": "Subof My",
+      "nombre": "Castaño Arturo Even",
+      "nacimiento": "1\/5\/1958",
+      "img":"../src/assets/img/CastañoArturoEven.jpeg",
+      "misiones": [
+       {
+           "mision": "BEA VII - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1995,
+           "unidad": "RI Mot 17"
+       }
+
+      ]
+     },
+     {
+      "id": 24,
+      "grado": "Subof My",
+      "nombre": "Cedrón Eduardo Wenceslao",
+      "nacimiento": "1\/12\/1967",
+      "img":"../src/assets/img/CedrónEduardoWenceslao.jpeg",
+      "misiones": [
+            {
+                "id":1,
+                "mision": "BEA VII - UNPROFOR",
+                "pais": "CROACIA",
+                "año": 1995,
+                "unidad": "Cdo Int"
+            },
+            {
+                "id":2,        
+                "mision": "Fuerza Tarea  - UNFICYP",
+                "pais": "CHIPRE",
+                "año": 1996,
+                "unidad": "Cdo Int"
+            },
+            {
+                "id":3,
+                "mision": "KUWAIT",
+                "pais": "KUWAIT",
+                "año": 1999,
+                "unidad": "Cdo Int"
+            },
+            {
+            "id":4,
+             "mision": "OTAN",
+             "pais": "KOSOVO",
+             "año": 2005,
+             "unidad": "CGE"
+            }
+        ]
+     },
+     {
+      "id": 25,
+      "grado": "Subof Pr",
+      "nombre": "Carrizo Juan Carlos",
+      "nacimiento": "30\/7\/1953",
+      "img":"../src/assets/img/CarrizoJuanCarlos.jpeg",
+      "misiones": [
+       {
+           "mision": "BEA IV - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1994,
+           "unidad": "RI Mot 17"
+       }
+
+      ]
+     },
+     {
+      "id": 26,
+      "grado": "Subof Pr",
+      "nombre": "Seco Oscar Saul",
+      "img":"../src/assets/img/default.svg",
+      "misiones": [
+        {
+           "mision": "BEA III - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1993,
+           "unidad": "RI Parac 2"
+       }
+
+      ]
+     },
+     {
+      "id": 27,
+      "grado": "Subof Pr",
+      "nombre": "Miranda Tiodoro Antonio",
+      "nacimiento": "23\/3\/1954",
+      "img":"../src/assets/img/MirandaTiodoroAntonio.jpeg",
+      "misiones": [
+       {
+           "mision": "MINUSTAH 1",
+           "pais": "HAITI",
+           "año": 2004,
+           "unidad": "RI Parac 14"
+       }
+
+      ]
+     },
+     {
+      "id": 28,
+      "grado": "Subof Pr",
+      "nombre": "Garro Jose Alfredo",
+      "nacimiento": "12\/9\/1956",
+      "img":"../src/assets/img/GarroJoseAlfredo.jpeg",
+      "misiones": [
+       {
+            "id":1,
+           "mision": "BEA VII - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1995,
+           "unidad": "RI Mot 17"
+       },
+       {
+            "id":2,
+            "mision": "MINUSTA II",
+            "pais": "HAITI",
+            "año": 2005,
+            "unidad": "Ec Parac y Cdo"
+        }
+      ]
+     },
+     {
+      "id": 29,
+      "grado": "Subof Pr",
+      "nombre": "Ariza Luis Orlando",
+      "nacimiento": "21\/7\/1960",
+      "img":"../src/assets/img/default.svg",
+      "misiones": [
+       {
+           "mision": "BEA I - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1992,
+           "unidad": "RI Mot 17"
+       }
+
+      ]
+     },
+     {
+      "id": 30,
+      "grado": "Subof Pr",
+      "nombre": "Ortega Omar Ubaldo",
+      "img":"../src/assets/img/OrtegaOmarUbaldo.jpeg",
+      "misiones": [
+        {
+           "mision": "BEA VII - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1995,
+           "unidad": "RI Mot 17"
+       }
+
+      ]
+     },
+     {
+      "id": 31,
+      "grado": "Subof Pr",
+      "nombre": "Astorga Elio Rolando",
+      "nacimiento": "22\/10\/1963",
+      "img":"../src/assets/img/default.svg",
+      "misiones": [
+       {
+           "mision": "BEA I - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1992,
+           "unidad": "RI Mot 17"
+       }
+
+      ]
+     },
+     {
+      "id": 32,
+      "grado": "Subof Pr",
+      "nombre": "Carrizo Marcial Daniel",
+      "img":"../src/assets/img/CarrizoMarcialDaniel.jpeg",
+      "misiones": [
+        {
+                "mision": "Fuerza Tarea 12-13 - UNFICYP",
+                "pais": "CHIPRE",
+                "año": 1999
+            }
+        ]
+    },
+     {
+      "id": 33,
+      "grado": "Subof Pr",
+      "nombre": "Rojas Juan Antonio",
+      "img":"../src/assets/img/default.svg",
+      "misiones": [
+        {
+           "mision": "Fuerza Tarea 13 - UNFICYP",
+           "pais": "CHIPRE",
+           "año": 1999,
+           "unidad": "RI Mot 17"
+       }
+
+      ]
+     },
+     {
+      "id": 34,
+      "grado": "Subof Pr",
+      "nombre": "Flores Gonzalez Luis Rodolfo",
+      "nacimiento": "28\/6\/1958",
+      "img":"../src/assets/img/FloresGonzalezLuisRodolfo.jpeg",
+      "misiones": [
+            {
+                "id":1,
+                "mision": "BEA II - UNPROFOR",
+                "pais": "CROACIA",
+                "año": 1992,
+                "unidad": "RI Mot 17"
+            },
+            {
+                "id":2,        
+                "mision": "Fuerza Tarea 32 - UNFICYP",
+                "pais": "CHIPRE",
+                "año": 2008,
+                "unidad": "RI Parac 14"
+            }
+        ]
+     },
+     {
+      "id": 35,
+      "grado": "Subof Pr",
+      "nombre": "Arroyo Juan Ramón",
+      "nacimiento": "23\/12\/1954",
+      "img":"../src/assets/img/ArroyoJuanRamón.jpeg",
+      "misiones": [
+       {
+           "mision": "BEA VII - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1995,
+           "unidad": "Ca Apy Eq Aero 4"
+       }
+
+      ]
+     },
+     {
+      "id": 36,
+      "grado": "Sarg Ay",
+      "nombre": "Miranda Ricardo Octavio",
+      "nacimiento": "14\/8\/1957",
+      "img":"../src/assets/img/MirandaRicardoOctavio.jpeg",
+      "misiones": [
+       {
+           "mision": "Fuerza Tarea 4 - UNFICYP",
+           "pais": "CHIPRE",
+           "año": 1995,
+           "unidad": "Cdo Br Mec XI"
+       }
+
+      ]
+     },
+     {
+      "id": 37,
+      "grado": "Sarg Ay",
+      "nombre": "Aranda Luis Rolando",
+      "nacimiento": "26\/11\/1964",
+      "img":"../src/assets/img/default.svg",
+      "misiones": [
+       {
+           "mision": "BEA I - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1992,
+           "unidad": "RIMot 17"
+       }
+
+      ]
+     },
+     {
+      "id": 38,
+      "grado": "Sarg Ay",
+      "nombre": "Rodriguez Raúl Roberto",
+      "nacimiento": "18\/10\/1963",
+      "img":"../src/assets/img/default.svg",
+      "misiones": [
+            {
+                "id":1,
+                "mision": "BEA I - UNPROFOR",
+                "pais": "CROACIA",
+                "año": 1992,
+                "unidad": "RI Mec 3"
+            },
+            {
+                "id":2,        
+                "mision": "Fuerza Tarea 5 - UNFICYP",
+                "pais": "CHIPRE",
+                "año": 1994,
+                "unidad": "RI Aerot 17"
+            },
+            {
+                "id":3,
+                "mision": "MINUSTAH 1",
+                "pais": "HAITI",
+                "año": 2004,
+                "unidad": "RI Parac 2"
+            }
+        ]
+     },
+     {
+      "id": 39,
+      "grado": "Sarg Ay",
+      "nombre": "Ormachea Benicio Felipe",
+      "nacimiento": "22\/11\/1965",
+      "img":"../src/assets/img/OrmacheaBenicioFelipe.jpeg",
+      "misiones": [
+       {
+           "mision": "BEA VII - UNPROFOR",
+           "pais": "CROACIA",
+           "año": 1995,
+           "unidad": "RI Mot 17"
+       }
+
+      ]
+     },
+     {
+      "id": 40,
+      "grado": "Sarg Ay",
+      "nombre": "Molas Juan Carlos",
+      "img":"../src/assets/img/default.svg",
+      "misiones": [
+        {
+           "mision": "Fuerza Tarea 13 - UNFICYP",
+           "pais": "CHIPRE",
+           "año": 1999,
+           "unidad": "RIM 15"
+       }
+
+      ]
+     },
+     {
+      "id": 41,
+      "grado": "Sarg Ay",
+      "nombre": "Coronel Vizzoni Luis Manuel",
+      "nacimiento": "23\/11\/1976",
+      "img":"../src/assets/img/default.svg",
+      "misiones": [
+       {
+           "mision": "MINUSTAH 7",
+           "pais": "HAITI",
+           "año": 2007,
+           "unidad": "RIM 15"
+       }
+
+      ]
+     },
+     {
+      "id": 42,
+      "grado": "Sarg Ay",
+      "nombre": "Solohaga Paola",
+      "nacimiento": "3\/2\/1976",
+      "img":"../src/assets/img/default.svg",
+      "misiones": [
+            {
+                "id":1,
+                "mision": "Fuerza Tarea 13 - UNFICYP",
+                "pais": "CHIPRE",
+                "año": 1999,
+                "unidad": "Cdo Br Parac VI"
+            },
+            {
+                "id":2,        
+                "mision": "MINUSTAH 18",
+                "pais": "HAITI",
+                "año": 2008,
+                "unidad": "RI Parac 14"
+            },
+            {
+                "id":3,
+                "mision": "Fuerza Tarea 32 - UNFICYP",
+                "pais": "CHIPRE",
+                "año": 2013,
+                "unidad": "Ca Ing Parac 4"
+            }
+        ]
+     },
+     {
+      "id": 43,
+      "grado": "SV",
+      "nombre": "Varela José Arnaldo",
+      "nacimiento": "4\/8\/1985",
+      "img":"../src/assets/img/default.svg",
+      "misiones": [
+       {
+           "mision": "MINUSTAH",
+           "pais": "HAITI",
+           "año": 2011,
+           "unidad": "RI Mec 15"
+       }
+
+      ]
+     },
+     {
+      "id": 44,
+      "grado": "SV",
+      "nombre": "Lobos Diego Oscar",
+      "nacimiento": "4\/7\/1985",
+      "img":"../src/assets/img/LobosDiegoOscar.jpeg",
+      "misiones": [
+       {
+           "mision": "MINUSTAH",
+           "pais": "HAITI",
+           "año": 2011,
+           "unidad": "RI Mec 15"
+       }
+
+      ]
+     }
+    ]
+}
